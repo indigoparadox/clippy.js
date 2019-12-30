@@ -138,7 +138,7 @@ clippy.Animator.prototype = {
         var s = this._currentFrame.sound;
         if (!s) return;
         var audio = this._sounds[s];
-        if (audio) audio.play();
+        //if (audio) audio.play();
     },
 
     _atLastFrame:function () {
